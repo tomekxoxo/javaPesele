@@ -24,21 +24,6 @@ public class FileController {
         }
     }
 
-//    void findPeselAndReplaceData(String pesel) {
-//        try {
-//            String s;
-//            System.out.println("szukam");
-//            System.out.print(reader.readLine());
-//            while ((s = reader.readLine()) != null) {
-//
-//                System.out.println(s);
-//            }
-//            reader.close();
-//        } catch (Exception ex) {
-//            return;
-//        }
-//    }
-
     void writeFile(String data) throws IOException {
         try {
             writer.write(data);
